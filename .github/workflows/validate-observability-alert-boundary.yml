@@ -2,13 +2,6 @@ name: Validate observability alert communication boundary
 
 on:
   pull_request:
-    paths:
-      - contracts/observability-alert-delivery.v1.json
-      - docs/OBSERVABILITY-ALERT-DELIVERY-BOUNDARY.md
-      - release/observability-alert-boundary.sha256
-      - scripts/validate_observability_alert_boundary.py
-      - tests/test_observability_alert_boundary.py
-      - .github/workflows/validate-observability-alert-boundary.yml
   push:
     branches: [main]
 
